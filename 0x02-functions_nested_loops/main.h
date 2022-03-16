@@ -1,8 +1,8 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 /**
- *_putchar - writes the character c to std
- *@c: parameter to compare
+ * _putchar - writes the character c to std
+ * @c: parameter to compare
  * Return:  0
  */
 int _putchar(char c);
@@ -15,13 +15,13 @@ void print_alphabet(void);
  */
 void print_alphabet_x10(void);
 /**
- *_islower - prints if c is lower case
- *@c: character to use
- *Return:  0
+ * _islower - prints if c is lower case
+ * @c: character to use
+ * Return:  0
  */
 int _islower(int c);
 /**
- *_isalpha - prints if character is alphabet
+ * _isalpha - prints if character is alphabet
  * @c: character to use
  * Return:  1 or 0
  */
