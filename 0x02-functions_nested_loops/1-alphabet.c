@@ -2,21 +2,18 @@
 #include "main.h"
 
 /**
- *main - check the code
- *print_alphabet - prints alphabets in lowercase, followed by a new line  
- *Return: Always 0(success).
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
 void print_alphabet(void)
 {
-	char ch;
+   	char ch;
 
-	ch = 'a';
+  	ch = 'a';
 
-	while (ch <='z')
+ 	while (ch <= 'z')
 	{
-		_putchar(ch);
-		ch++;
-	}
-
-	_putchar ('\n');
+  		_putchar(ch);
+  		ch++;
+  	}
+  	_putchar('\n');
 }
