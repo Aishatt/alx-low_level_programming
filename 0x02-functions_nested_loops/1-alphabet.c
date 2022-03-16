@@ -5,7 +5,7 @@
  *print_alphabet - prints alphabets in lowercase, followed by a new line  
  *Return: Always 0(success).
  */
-int main(void)
+void print_alphabet(void)
 {
 	char ch;
 	ch = 'a';
