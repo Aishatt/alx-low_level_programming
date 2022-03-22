@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- * write function that swaps the values of two intgers
+ * swap_int -  swaps the values of two intgers
  * Return : always 0.
  */
 
