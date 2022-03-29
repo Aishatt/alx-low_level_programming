@@ -2,9 +2,10 @@
 #include "main.h"
 /**
  * _memset - function that prints the first bytes
- * @s:pointer
+ * @s:pointer,memory area
  * @b: character variable
  * @n: unisigned int
+ * Return: the pointer to dest.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
